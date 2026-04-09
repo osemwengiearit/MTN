@@ -44,7 +44,7 @@ This project focuses on translating a real design into code while paying attenti
 
 ## 🌐 Live Demo
 
-(https://mtn-mu.vercel.app/)
+https://mtn-ruby.vercel.app
 
 ## 💡 Inspiration
 
