@@ -27,18 +27,32 @@
 }
 
 .top-nav li {
+  position: relative;
   cursor: pointer;
+  padding-left: 15px;
 }
 
 .top-nav li.active {
   font-weight: 500;
 }
 
+.top-nav li.active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
 /* Main Navigation */
 .main-nav {
   background: #ffcc00;
-  padding: 18px 0;
-  border-radius: 8px;
+  padding: 22px 0;
+  border-radius: 4px;
   margin: 10px;
 }
 
