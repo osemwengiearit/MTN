@@ -62,6 +62,12 @@
   justify-content: space-between;
 }
 
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 /* Logo */
 .logo span {
   border: 2px solid #1a1a1a;
